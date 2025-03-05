@@ -1,0 +1,70 @@
+---
+description: Main index of best practices for Satūs
+globs: **/*
+alwaysApply: false
+---
+## Global Rules
+
+1. **Type Safety**
+   - Use TypeScript for all new code
+   - Maintain strict type checking
+   - Avoid `any` types unless absolutely necessary
+
+2. **Performance**
+   - Use React Server Components by default
+   - Implement proper code splitting
+   - Follow recommended caching strategies
+   - Optimize assets and bundles
+
+3. **Code Quality**
+   - Follow Biome linting rules
+   - Maintain consistent code style
+   - Write meaningful comments and documentation
+   - Use meaningful variable and function names
+
+4. **Testing & Debugging**
+   - Write unit tests for critical functionality
+   - Use Orchestra tools for debugging
+   - Implement proper error boundaries
+   - Follow error handling best practices
+
+5. **Security**
+   - Follow security best practices
+   - Properly handle environment variables
+   - Implement proper authentication
+   - Follow CSP guidelines
+
+6. **Architecture**
+   - Follow the defined project structure
+   - Maintain separation of concerns
+   - Use proper state management
+   - Follow component composition patterns
+
+## File Organization
+
+```
+├── app/                  # Next.js pages and routes
+├── components/           # Reusable UI components
+├── hooks/                # Custom React hooks
+├── integrations/         # Third-party integrations
+├── libs/                 # Utility libraries
+├── orchestra/            # Debug tools
+└── webgl/                # WebGL and 3D graphics
+```
+
+## Getting Started
+
+1. Review relevant best practices before starting work in a specific area
+2. Follow the project structure guidelines
+3. Use the provided development tools and debugging features
+4. Consult the documentation for specific implementation details
+
+## Updates
+
+These best practices are regularly updated to reflect:
+- New dependencies and versions
+- Improved patterns and practices
+- Community feedback and learnings
+- Project-specific requirements
+
+Last updated: 2024-02-18 
